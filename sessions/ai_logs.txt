@@ -1,0 +1,22 @@
+AI Coding Session Summary
+
+Tools used:
+- ChatGPT (primary)
+- GitHub Copilot (optional)
+
+Usage:
+- Designed backend architecture (FastAPI + SQLite)
+- Debugged ingestion and schema issues
+- Fixed deployment errors (Render + Vercel)
+- Built query system with SQL generation
+- Implemented guardrails for safe queries
+
+Key workflows:
+1. Converted natural language → SQL queries
+2. Handled null-heavy SAP dataset
+3. Designed graph relationships dynamically
+4. Replaced LLM with rule-based fallback for stability
+
+Notes:
+- Encountered API version issues with Gemini
+- Switched to deterministic logic for reliability
